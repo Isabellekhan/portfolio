@@ -115,12 +115,14 @@ export default function Home() {
               <h4 className=" font-extrabold py-2">
                 Spotify Clone app (Mobile version)
               </h4>
-              <Image
-                src={web11}
-                className="rounded-lg object-cover py-10 bg-white/40"
-                width={"100%"}
-                height={"100%"}
-              />
+              <a href="https://weact-clonify.netlify.app/">
+                <Image
+                  src={web11}
+                  className="rounded-lg object-cover py-10 bg-white/40"
+                  width={"100%"}
+                  height={"100%"}
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
               <h4 className="font-bold py-2">Quote generator</h4>
