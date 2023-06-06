@@ -115,6 +115,9 @@ export default function Home() {
               <h4 className=" font-extrabold py-2">
                 Spotify Clone app (Mobile version)
               </h4>
+              <p>
+                In this project we made a Spotify clone music player in react.{" "}
+              </p>
               <a href="https://weact-clonify.netlify.app/">
                 <Image
                   src={web11}
@@ -126,6 +129,10 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <h4 className="font-bold py-2">Quote generator</h4>
+              <p>
+                This project is a simple quote generator, that is fetching an
+                api to generat these quotes
+              </p>
               <Image
                 src={web10}
                 className="rounded-lg  shadow-lg object-cover py-10 bg-white/40"
