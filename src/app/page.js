@@ -115,7 +115,7 @@ export default function Home() {
               <h4 className=" font-extrabold py-2">
                 Spotify Clone app (Mobile version)
               </h4>
-              <p>
+              <p className="text-md py-5">
                 In this project we made a Spotify clone music player in react.{" "}
               </p>
               <a href="https://weact-clonify.netlify.app/">
