@@ -141,6 +141,7 @@ export default function Home() {
                 This project is a simple quote generator, that is fetching an
                 api to generat these quotes
               </p>
+              <a href="https://rococo-pudding-4566ff.netlify.app/"></a>
               <Image
                 src={purple}
                 className="rounded-lg  shadow-lg object-cover py-10 bg-white/40"
