@@ -57,6 +57,12 @@ export default function Home() {
               Welcome to my page! I'm currently a student at Hyperisland looking
               for an internship this fall, ready to challange my skills.
             </p>
+            <p className="text-md py-5 leading-7 text-gray-800 md:text-xl max-w-lg mx-auto">
+              I'm a brown girl born and brought up in Stockholm, so basically
+              coding should be in my blood, haha! ...Jokes aside, i'm learning
+              my way in to the coding world, and it's so exciting! Please take a
+              look around my page and feel free to contact me anytime!
+            </p>
 
             <div className="mx-auto bg-gradient-to-b from-green-900 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={isabelle} layout="fill" objectFit="cover" />
