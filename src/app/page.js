@@ -37,6 +37,9 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+          <div className="mx-auto bg-gradient-to-b from-green-900 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-50 md:w-50">
+            <Image src={isabelle} layout="fill" objectFit="cover" />
+          </div>
 
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-black font-medium md:text-6xl">
@@ -63,10 +66,6 @@ export default function Home() {
               my way in to the coding world, and it's so exciting! Please take a
               look around my page and feel free to contact me anytime!
             </p>
-
-            <div className="mx-auto bg-gradient-to-b from-green-900 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={isabelle} layout="fill" objectFit="cover" />
-            </div>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-6 text-black ">
             <a href="https://www.linkedin.com/in/isabelle-khan-825656162">
