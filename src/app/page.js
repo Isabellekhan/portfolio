@@ -6,11 +6,10 @@ import {
 } from "react-icons/ai";
 import Image from "next/image";
 import isabelle from "public/CartoonIsabelle.png";
-import purple from "public/purple.png";
+import web10 from "public/purple.png";
 import code from "public/code.png";
 import consulting from "public/consulting.png";
 import web11 from "public/web11.png";
-import web10 from "public/web10.png";
 
 export default function Home() {
   return (
@@ -141,9 +140,9 @@ export default function Home() {
                 This project is a simple quote generator, that is fetching an
                 api to generat these quotes
               </p>
-              <a href="https://rococo-pudding-4566ff.netlify.app/"></a>
+
               <Image
-                src={purple}
+                src={web10}
                 className="rounded-lg  shadow-lg object-cover py-10 bg-white/40"
                 width={"100%"}
                 height={"100%"}
