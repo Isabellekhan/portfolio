@@ -141,12 +141,14 @@ export default function Home() {
                 This project is a simple quote generator, that is fetching an
                 api to generat these quotes
               </p>
-              <Image
-                src={web10}
-                className="rounded-lg  shadow-lg object-cover py-10 bg-white/40"
-                width={"100%"}
-                height={"100%"}
-              />
+              <a href="https://rococo-pudding-4566ff.netlify.app/">
+                <Image
+                  src={web10}
+                  className="rounded-lg  shadow-lg object-cover py-10 bg-white/40"
+                  width={"100%"}
+                  height={"100%"}
+                />
+              </a>
             </div>
           </div>
         </section>
