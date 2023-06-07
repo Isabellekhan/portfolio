@@ -10,7 +10,7 @@ import design from "public/design.png";
 import code from "public/code.png";
 import consulting from "public/consulting.png";
 import web11 from "public/web11.png";
-import web10 from "public/web10.png";
+import web10 from "public/purple.png";
 
 export default function Home() {
   return (
