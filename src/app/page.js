@@ -5,7 +5,7 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import Image from "next/image";
-import isabelle from "public/Isabellenobg.png";
+import isabelle from "public/CartoonIsabelle.png";
 import design from "public/design.png";
 import code from "public/code.png";
 import consulting from "public/consulting.png";
@@ -58,6 +58,10 @@ export default function Home() {
               Welcome to my page! I'm currently a student at Hyperisland looking
               for an internship this fall, ready to challange my skills.
             </p>
+
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+              <Image src={isabelle} layout="fill" objectFit="cover" />
+            </div>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-6 text-black ">
             <a href="https://www.linkedin.com/in/isabelle-khan-825656162">
