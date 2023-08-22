@@ -135,21 +135,6 @@ export default function Home() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
-              <h4 className="font-bold py-2">Quote generator</h4>
-              <p className="text-md py-5 ">
-                This project is a simple quote generator, that is fetching an
-                api to generat these quotes.
-              </p>
-              <a href="https://rococo-pudding-4566ff.netlify.app/">
-                <Image
-                  src={web10}
-                  className="rounded-lg  shadow-lg object-cover py-10 bg-white/40"
-                  width={"100%"}
-                  height={"100%"}
-                />
-              </a>
-            </div>
           </div>
         </section>
       </main>
