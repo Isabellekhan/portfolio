@@ -1,16 +1,9 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import isabelle from "public/CartoonIsabelle.png";
-import design from "public/design.png";
-import code from "public/code.png";
-import consulting from "public/consulting.png";
+
 import web11 from "public/web11.png";
-import web10 from "public/purple.png";
 
 export default function Home() {
   return (
